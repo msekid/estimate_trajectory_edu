@@ -4,6 +4,8 @@
 dir_path="/mnt/source/dataset/DRDataset30/*"
 dirs=`find $dir_path -maxdepth 0 -type d`
 
+
+
 for dir in $dirs;
 do
     echo $dir
